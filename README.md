@@ -21,9 +21,9 @@ We only support JSON for serialization of data. You have to send `Content-Type: 
 APIs ready for use
 -----------------
 
-* [Businesses](https://github.com/devhub/api/blob/master/sections/businesses.md)
-* [Domains](https://github.com/devhub/api/blob/master/sections/domains.md)
-* [Sites](https://github.com/devhub/api/blob/master/sections/sites.md)
+* [Businesses](https://github.com/devhub/api/blob/develop/sections/businesses.md)
+* [Domains](https://github.com/devhub/api/blob/develop/sections/domains.md)
+* [Sites](https://github.com/devhub/api/blob/develop/sections/sites.md)
 
 Help us make it better
 ----------------------
