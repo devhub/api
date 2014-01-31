@@ -1,5 +1,7 @@
 # Sites
 
+
+
 ## List sites
 
 List all sites including active, deleted, non-published and published
@@ -173,6 +175,10 @@ Name | Type | Description
   "user_id": 1
 }
 ```
+
+### Response
+
+A status code of `201 created` is returned on a successful creation and contains the created site object as JSON. See the [Get a single site](#get-a-single-site) section for an example Site object.
 
 
 
