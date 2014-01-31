@@ -4,6 +4,7 @@ Covered in this doc:
 * [List sites](#list-sites)
 * [Get a single site](#get-a-single-site)
 * [Create a site](#create-a-site)
+* [Passing a partner_user_id](#passing-a-partner_user_id)
 
 ## List sites
 
@@ -183,5 +184,25 @@ Name | Type | Description
 
 A status code of `201 created` is returned on a successful creation and contains the created site object as JSON. See the [Get a single site](#get-a-single-site) section for an example Site object.
 
+## Passing a `partner_user_id`
+
+This is the unique user ID you use for this user internally (i.e. their login to your system or a customer ID). If you provide a `partner_user_id` in the params, you don't need to include `user_id` in your request.
+
+In addition to supplying `partner_user_id`, unless you are certain that a User account has been created already on our side, you will need to also pass the user's details to us. These are `first_name`, `last_name`, and `email`. These fields are used to automatically create a User account on our side if it does not already exist. If you are not sure if a user account is already created for the supplied `partner_user_id`, then you can always pass these values to maintain consistency.
+
+### Example of the `partner_user_id` params being used
+
+```json
+{
+  "subdomain": "www"
+  "domain": "somebusinessname.com",
+  ...
+
+  "partner_user_id": 12345,
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "john.doe@gmail.com"
+}
+```
 
 
