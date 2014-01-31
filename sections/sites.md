@@ -21,9 +21,12 @@ List all active sites
 
 Name | Type | Description
 -----|------|--------------
-`business_id`|`string`|Filter to sites associated with a particular `Business`
+`added__date`|`string`|Filter for sites created on a particular date in `YYYY-MM-DD` format
+`business_id`|`string`|Filter for sites associated with a particular `Business`
 `deleted`|`string`|Return sites based on if they are active (`0`) or deleted/disabled (`1`)
-`location_id`|`string`|Filter to sites associated with a particular `Location`
+`location_id`|`string`|Filter for sites associated with a particular `Location`
+`order_by`|`string`|Set the field to sort the results by. Available `order_by` includes `id` (default) and `title`. You can also sort decending by prefixing the field with a minus sign (i.e. `order_by=-id`)
+`partner_site_id`|`string`|Used to lookup/search for sites matching a particular internal id
 
 ### Response
 
