@@ -11,7 +11,7 @@ All URLs are prefixed with `/api/v2/`
 Authentication
 --------------
 
-Read the [authentication guide](https://github.com/devhub/api/blob/master/sections/authentication.md) to get started.
+Read the [authentication guide](https://github.com/devhub/api/blob/develop/sections/authentication.md) to get started.
 
 No XML, just JSON
 -----------------
