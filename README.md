@@ -13,11 +13,6 @@ Authentication
 
 Read the [authentication guide](https://github.com/devhub/api/blob/develop/sections/authentication.md) to get started.
 
-No XML, just JSON
------------------
-
-We only support JSON for serialization of data. You have to send `Content-Type: application/json;" when you're POSTing or PUTing data to the API
-
 APIs ready for use
 -----------------
 
