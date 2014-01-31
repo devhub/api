@@ -5,6 +5,7 @@ Covered in this doc:
 * [Get a single site](#get-a-single-site)
 * [Create a site](#create-a-site)
 * [Passing a partner_user_id](#passing-a-partner_user_id)
+* [Updating a site](#updating-a-site)
 
 ## List sites
 
@@ -204,5 +205,11 @@ In addition to supplying `partner_user_id`, unless you are certain that a User a
   "email": "john.doe@gmail.com"
 }
 ```
+
+## Updating a site
+
+    PUT /api/v2/sites/:id/
+
+You can `PUT` a partial or full object to the detail endpoint to update/change values on the Site object.
 
 
