@@ -140,3 +140,26 @@ Fetch the Site detail using the `Site.id`
 }
 ```
 
+## Create a site
+
+    POST /api/v2/sites/
+
+### Parameters
+
+Name | Type | Description
+-----|------|--------------
+`domain`|`string`|**required**
+`subdomain`|`string`|**required** Must be provided, if site is hosted under a registered domain, use `www`
+`theme_id`|`integer`|**required** You will be supplied a list of valid theme IDs
+`title`|`string`|**required** This is the name of the site displayed in the site editor user interfaces
+`user_id` or `partner_user_id`|`integer` or `string`|**required** If you know the user account you want to publish this site on the behalf of, use `user_id`. If you don't know the user ID, you can use the `partner_user_id` method described further down this document.
+||
+**Optional**||
+`about`|`string`|This is a text summary describing this site, formatted as HTML
+`base_directory`|`string`|Under private labels with sub-directory based sites, this is where it is defined (defaults to slash `/` but an example might be `/blog/username/`)
+`contact_email`|`string`|This defaults to the email address of the Site's `user_id`, but can be set on a site-by-site basis with this parameter
+`published`|`boolean`|Unpublished sites are viewable via preview links and within the Site Builder, but the live site address (domain/subdomain) will respond with a `404` status code. Defaults to `true`
+`www_primary`|`boolean`| This parameter is used to configure how the address of the site is displayed by default. `www_primary` of `true` would be displayed as `www.domain.com`, where `www_primary` of `false` would be displayed as `domain.com`. Either address is still accessible by site visitors and the platform will automatically redirect (`301` status code) to the preferred display. By default, sites with registered domains (i.e. `domain.com`) will be set to `true`, subdomain sites (i.e. `somesite.domain.com`) will be set to `false`
+
+
+
