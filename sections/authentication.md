@@ -8,7 +8,7 @@ The endpoint for the API is based on your private label configuration. An exampl
 
     http://yourprivatelabel.cloudfrontend.net/api/v2/..
 
-All endpoints respond with `JSON` unless otherwise specified by the format parameter
+We only support JSON for serialization of data. You have to send `Content-Type: application/json;` when you're POSTing or PUTing data to the API
 
 ## Example oauth usage in python
 
