@@ -1,5 +1,6 @@
 # Sites
 
+Covered in this doc:
 * [List sites](#list-sites)
 * [Get a single site](#get-a-single-site)
 * [Create a site](#create-a-site)
