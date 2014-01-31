@@ -210,6 +210,6 @@ In addition to supplying `partner_user_id`, unless you are certain that a User a
 
     PUT /api/v2/sites/:id/
 
-You can `PUT` a partial or full object to the detail endpoint to update/change values on the Site object.
+You can `PUT` a partial or full object to the detail endpoint to update/change values on the Site object. If using a partial object, you must insure that the primary site `id` is part of the payload.
 
 
