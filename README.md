@@ -11,15 +11,15 @@ All URLs are prefixed with `/api/v2/`
 Authentication
 --------------
 
-Read the [authentication guide](https://github.com/devhub/api/blob/develop/sections/authentication.md) to get started.
+Read the [authentication guide](https://github.com/devhub/api/blob/master/sections/authentication.md) to get started.
 
 APIs ready for use
 -----------------
 
-* [Businesses](https://github.com/devhub/api/blob/develop/sections/businesses.md)
-* [Domains](https://github.com/devhub/api/blob/develop/sections/domains.md)
-* [Pages](https://github.com/devhub/api/blob/develop/sections/pages.md)
-* [Sites](https://github.com/devhub/api/blob/develop/sections/sites.md)
+* [Businesses](https://github.com/devhub/api/blob/master/sections/businesses.md)
+* [Domains](https://github.com/devhub/api/blob/master/sections/domains.md)
+* [Pages](https://github.com/devhub/api/blob/master/sections/pages.md)
+* [Sites](https://github.com/devhub/api/blob/master/sections/sites.md)
 
 Help us make it better
 ----------------------
