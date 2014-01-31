@@ -20,7 +20,6 @@ APIs ready for use
 * [Domains](https://github.com/devhub/api/blob/develop/sections/domains.md)
 * [Pages](https://github.com/devhub/api/blob/develop/sections/pages.md)
 * [Sites](https://github.com/devhub/api/blob/develop/sections/sites.md)
-* [Users](https://github.com/devhub/api/blob/develop/sections/users.md)
 
 Help us make it better
 ----------------------
