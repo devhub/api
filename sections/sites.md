@@ -85,7 +85,7 @@ Name | Type | Description
 }
 ```
 
-## Get a single issue
+## Get a single site
 
 Fetch the Site detail using the `Site.id`
 
