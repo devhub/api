@@ -84,3 +84,59 @@ Name | Type | Description
   ]
 }
 ```
+
+## Get a single issue
+
+Fetch the Site detail using the `Site.id`
+
+    GET /api/v2/sites/:id/
+
+### Response
+
+```json
+{
+  "about": "<p>Here is a description of this Site</p>",
+  "added": "2013-06-19T11:17:13",
+  "base_directory": "/",
+  "business": {
+    ... fully expanded `Business` object
+  },
+  "business_id": 24305,
+  "deleted": false,
+  "domain": "cloudbackend.net",
+  "formatted_domain": "somesite.cloudbackend.net",
+  "formatted_url": "http://somesite.cloudbackend.net/",
+  "hash": "934dc52",
+  "id": 1281131,
+  "keywords": "",
+  "linklists": [
+    ... configuration of the Site's menu
+  ],
+  "locations": [
+    ... list of associated `Location` objects
+  ],
+  "logo": {
+    ... fully expanded `Logo` object
+  },
+  "modified": "2014-01-28T13:20:13",
+  "parent_id": null,
+  "partner_site_id": null,
+  "partner_sub_id": null,
+  "published": true,
+  "resource_uri": "/api/v2/sites/1281131/",
+  "subdomain": "somesite",
+  "theme_id": 449,
+  "theme_settings": {
+    "body_background_color": "#000000",
+    "hide_navigation": false
+  },
+  "title": "Site Title (internal use only)",
+  "type": "default",
+  "user": {
+    ... fully expanded `User` object
+  },
+  "user_id": 248114,
+  "www_primary": false
+}
+```
+
