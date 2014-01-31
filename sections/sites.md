@@ -161,5 +161,18 @@ Name | Type | Description
 `published`|`boolean`|Unpublished sites are viewable via preview links and within the Site Builder, but the live site address (domain/subdomain) will respond with a `404` status code. Defaults to `true`
 `www_primary`|`boolean`| This parameter is used to configure how the address of the site is displayed by default. `www_primary` of `true` would be displayed as `www.domain.com`, where `www_primary` of `false` would be displayed as `domain.com`. Either address is still accessible by site visitors and the platform will automatically redirect (`301` status code) to the preferred display. By default, sites with registered domains (i.e. `domain.com`) will be set to `true`, subdomain sites (i.e. `somesite.domain.com`) will be set to `false`
 
+#### Example
+
+```json
+{
+  "domain": "somebusinessname.com",
+  "published": true,
+  "subdomain": "www",
+  "theme_id": 24,
+  "title": "Site Title Here",
+  "user_id": 1
+}
+```
+
 
 
