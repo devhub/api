@@ -190,7 +190,7 @@ This is the unique user ID you use for this user internally (i.e. their login to
 
 In addition to supplying `partner_user_id`, unless you are certain that a User account has been created already on our side, you will need to also pass the user's details to us. These are `first_name`, `last_name`, and `email`. These fields are used to automatically create a User account on our side if it does not already exist. If you are not sure if a user account is already created for the supplied `partner_user_id`, then you can always pass these values to maintain consistency.
 
-### Example of the `partner_user_id` params being used
+### Example of the `partner_user_id` param being used
 
 ```json
 {
