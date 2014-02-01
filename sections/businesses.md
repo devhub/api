@@ -39,7 +39,6 @@ Name | Type | Description
     {
       "added": "2013-05-24T11:40:21",
       "business_name": "Some Business Name",
-      "category": null,
       "category_id": null,
       "contact_email": "contact@somebusiness.com",
       "deleted": false,
@@ -64,7 +63,6 @@ Name | Type | Description
     {
       "added": "2013-05-24T11:40:21",
       "business_name": "Another Business Name",
-      "category": null,
       "category_id": null,
       "contact_email": "anotherbusiness@gmail.com",
       "deleted": false,
@@ -90,3 +88,76 @@ Name | Type | Description
   ]
 }
 ```
+
+## Get a single business
+
+Fetch the Business detail using the `Business.id`
+
+    GET /api/v2/businesses/:id/
+
+### Response
+
+```json
+{
+  "added": "2013-05-24T11:40:21",
+  "business_name": "Some Business Name",
+  "category": null,
+  "category_id": null,
+  "contact_email": "contact@somebusiness.com",
+  "deleted": false,
+  "description":"<p>Here is a description of the business</p>",
+  "facebook_url": "http://www.facebook.com/ourpage",
+  "gplus_url": null,
+  "homepage_url": "http://www.somebusiness.com",
+  "id": 24305,
+  "images": [
+    ... list of the `Image` objects associated with the Business
+  ],
+  "logo_image": {
+    ... fully expanded `Image` object for the Business' logo
+  },
+  "logo_image_id": 12345,
+  "modified": "2014-01-21T10:37:39",
+  "partner_business_id": null,
+  "partner_sub_id": null,
+  "payment_forms": ["visa", "mastercard", "american-express"],
+  "payment_forms_notes": null,
+  "resource_uri": "/api/v2/businesses/24305/",
+  "services": [
+    ... list of business `Service` objects
+  ],
+  "slug": "some-business-name",
+  "tagline": "Best business in the region",
+  "twitter_url": "http://twitter.com/somebusiness",
+  "user_id": 142606,
+  "year_opened": 2013,
+  "yelp_url": null
+}
+```
+
+## Create a business
+
+    POST /api/v2/businesses/
+
+### Parameters
+
+Name | Type | Description
+-----|------|--------------
+`business_name`|`string`|**required** Name of the Business
+
+#### Example
+
+```json
+{
+}
+```
+
+### Response
+
+A status code of `201 created` is returned on a successful creation and contains the created business object as JSON. See the [Get a single business](#get-a-single-business) section for an example Business object.
+
+## Updating a business
+
+    PUT /api/v2/business/:id/
+
+You can `PUT` a partial or full object to the detail endpoint to update/change values on the Business object. If using a partial object, you must insure that the primary business `id` is part of the payload.
