@@ -21,6 +21,11 @@ APIs ready for use
 * [Pages](https://github.com/devhub/api/blob/master/sections/pages.md)
 * [Sites](https://github.com/devhub/api/blob/master/sections/sites.md)
 
+Other user guides
+-----------------
+
+* [Single sign on (SSO)](https://github.com/devhub/api/blob/master/sections/single-sign-on.md)
+
 Help us make it better
 ----------------------
 
