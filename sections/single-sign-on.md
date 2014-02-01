@@ -7,7 +7,8 @@ Contained in this document:
 * [Access requirements](#access-requirements)
 * [Prerequisites](#prerequisites)
 * [Request parameters](#request-parameters)
-* [Code samples](#code-samples)
+* [Code examples](#code-examples)
+ * [Python/Django](#python-django-example)
 
 ## Access requirements
 
