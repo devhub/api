@@ -1,7 +1,7 @@
 API v2 Documentation
 ===
 
-This is a REST-style API that uses JSON for serialization and OAuth 2 for authentication.
+This is a REST-style API that uses JSON for serialization and OAuth 2 for authentication
 
 Making a request
 ----------------
@@ -12,6 +12,11 @@ Authentication
 --------------
 
 Read the [authentication guide](https://github.com/devhub/api/blob/master/sections/authentication.md) to get started.
+
+Errors
+------
+
+Our API is designed to have predictable, resource-oriented URLs and to use HTTP response codes to indicate API errors. More details on [handling errors and validation](https://github.com/devhub/api/blob/master/sections/errors.md).
 
 APIs ready for use
 -----------------
