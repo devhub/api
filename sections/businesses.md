@@ -144,11 +144,33 @@ Fetch the Business detail using the `Business.id`
 Name | Type | Description
 -----|------|--------------
 `business_name`|`string`|**required** Name of the Business
+||
+**Optional**||
+`contact_email`|`string`|Contact email address for the Business
+`description`|`string`|This is a text summary describing the business, formatted as HTML
+`facebook_url`|`string`|Full address of the Business' Facebook Page (i.e. `http://www.facebook.com/somepage`)
 
 #### Example
 
 ```json
 {
+  "business_name": "Example Business",
+  "partner_business_id": "uid-12347",
+  "locations": [
+    {
+      "street": "555 Main St",
+      "city": "Seattle",
+      "state": "WA",
+      "postal_code": "98121",
+      "country": "US",
+      "phones": [
+        {
+          "type": "phone",
+          "number": "206-555-5555"
+        }
+      ]
+    }
+  ]
 }
 ```
 
