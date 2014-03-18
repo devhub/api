@@ -45,3 +45,22 @@ response, content = client.request('/api/v2/sites/', 'POST', body=json.dumps(par
 })
 content = json.loads(content)
 ```
+
+## Example oauth usage in PHP
+
+### `GET` request
+
+```php
+<?php
+
+$API_ROOT = '/api/v2/';
+$KEY = 'PROVIDEDKEYHERE';
+$SECRET = 'PROVIDEDSECRETHERE';
+
+$uri = $API_ROOT . 'sites/';
+$oauth = new OAuth($KEY, $SECRET, OAUTH_SIG_METHOD_HMACSHA1);
+$oauth->fetch($url);
+$content = $oauth->getLastResponse();
+
+?>
+```
