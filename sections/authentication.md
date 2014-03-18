@@ -53,13 +53,8 @@ content = json.loads(content)
 ```php
 <?php
 
-$API_ROOT = '/api/v2/';
-$KEY = 'PROVIDEDKEYHERE';
-$SECRET = 'PROVIDEDSECRETHERE';
-
-$uri = $API_ROOT . 'sites/';
-$oauth = new OAuth($KEY, $SECRET, OAUTH_SIG_METHOD_HMACSHA1);
-$oauth->fetch($url);
+$oauth = new OAuth('PROVIDEDKEYHERE', 'PROVIDEDSECRETHERE', OAUTH_SIG_METHOD_HMACSHA1);
+$oauth->fetch('/api/v2/sites/');
 $content = $oauth->getLastResponse();
 
 ?>
