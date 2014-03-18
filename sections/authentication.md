@@ -59,3 +59,20 @@ $content = $oauth->getLastResponse();
 
 ?>
 ```
+
+### `POST` request
+
+```php
+<?php
+
+$params = array(
+    'domain' => 'somebusinessname.com',
+    ...
+);
+$body = json_encode($params);
+$oauth = new OAuth('PROVIDEDKEYHERE', 'PROVIDEDSECRETHERE', OAUTH_SIG_METHOD_HMACSHA1);
+$oauth->fetch(/api/v2/sites/, $body, 'POST', array('Content-Type' => 'application/json'));
+$content = $oauth->getLastResponse();
+
+?>
+```
