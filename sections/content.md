@@ -1,10 +1,10 @@
 # Content
 
 Covered in this doc:
-* [List content](#list-content)
+* [List content objects](#list-content-objects)
 * [Get a single content object](#get-a-single-content-object)
 
-## List content
+## List content objects
 
 List all content modules ever created within a Site
 
