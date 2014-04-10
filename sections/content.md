@@ -2,7 +2,6 @@
 
 Covered in this doc:
 * [List content objects](#list-content-objects)
-* [Get a single content object](#get-a-single-content-object)
 
 ## List content objects
 
