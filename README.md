@@ -18,13 +18,19 @@ Errors
 
 Our API is designed to have predictable, resource-oriented URLs and to use HTTP response codes to indicate API errors. More details on [handling errors and validation](https://github.com/devhub/api/blob/master/sections/errors.md).
 
-APIs ready for use
------------------
+Core APIs ready for use
+-----------------------
 
 * [Businesses](https://github.com/devhub/api/blob/master/sections/businesses.md)
 * [Domains](https://github.com/devhub/api/blob/master/sections/domains.md)
 * [Pages](https://github.com/devhub/api/blob/master/sections/pages.md)
 * [Sites](https://github.com/devhub/api/blob/master/sections/sites.md)
+
+Content APIs
+------------
+
+* [Content](https://github.com/devhub/api/blob/master/sections/content.md)
+* [Images](https://github.com/devhub/api/blob/master/sections/images.md)
 
 Other user guides
 -----------------
