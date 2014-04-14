@@ -29,6 +29,7 @@ Core APIs ready for use
 Content APIs
 ------------
 
+* [Contact Logs](https://github.com/devhub/api/blob/master/sections/contact-logs.md)
 * [Content](https://github.com/devhub/api/blob/master/sections/content.md)
 * [Images](https://github.com/devhub/api/blob/master/sections/images.md)
 
