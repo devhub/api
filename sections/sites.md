@@ -6,7 +6,7 @@ Covered in this doc:
 * [Create a site](#create-a-site)
 * [Passing a partner_user_id](#passing-a-partner_user_id)
 * [Updating a site](#updating-a-site)
-* [Disabling / enabling a site](#disabling-enabling-a-site)
+* [Disabling / enabling a site](#disabling--enabling-a-site)
 
 ## List sites
 
