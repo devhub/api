@@ -40,49 +40,27 @@ Name | Type | Description
       "added": "2013-05-24T11:40:21",
       "business_name": "Some Business Name",
       "category_id": null,
-      "contact_email": "contact@somebusiness.com",
       "deleted": false,
-      "description":"<p>Here is a description of the business</p>",
-      "facebook_url": "http://www.facebook.com/ourpage",
-      "gplus_url": null,
-      "homepage_url": "http://www.somebusiness.com",
       "id": 24305,
       "modified": "2014-01-21T10:37:39",
       "partner_business_id": null,
       "partner_sub_id": null,
-      "payment_forms": ["visa", "mastercard", "american-express"],
-      "payment_forms_notes": null,
       "resource_uri": "/api/v2/businesses/24305/",
       "slug": "some-business-name",
-      "tagline": "Best business in the region",
-      "twitter_url": "http://twitter.com/somebusiness",
-      "user_id": 142606,
-      "year_opened": 2013,
-      "yelp_url": null
+      "user_id": 142606
     },
     {
       "added": "2013-05-24T11:40:21",
       "business_name": "Another Business Name",
       "category_id": null,
-      "contact_email": "anotherbusiness@gmail.com",
       "deleted": false,
-      "description":"<p>Here is a description of the business</p>",
-      "facebook_url": "http://www.facebook.com/anotherbusiness",
-      "gplus_url": null,
-      "homepage_url": "http://www.anotherbusiness.com",
       "id": 24306,
       "modified": "2014-01-21T10:37:39",
       "partner_business_id": null,
       "partner_sub_id": null,
-      "payment_forms": ["cash", "checks"],
-      "payment_forms_notes": null,
       "resource_uri": "/api/v2/businesses/24306/",
       "slug": "another-business-name",
-      "tagline": "Best business in the region",
-      "twitter_url": "http://twitter.com/anotherbusiness",
-      "user_id": 142606,
-      "year_opened": 1999,
-      "yelp_url": null
+      "user_id": 142606
     },
     ...
   ]
@@ -103,12 +81,7 @@ Fetch the Business detail using the `Business.id`
   "business_name": "Some Business Name",
   "category": null,
   "category_id": null,
-  "contact_email": "contact@somebusiness.com",
   "deleted": false,
-  "description":"<p>Here is a description of the business</p>",
-  "facebook_url": "http://www.facebook.com/ourpage",
-  "gplus_url": null,
-  "homepage_url": "http://www.somebusiness.com",
   "id": 24305,
   "images": [
     ... list of the `Image` objects associated with the Business
@@ -120,18 +93,12 @@ Fetch the Business detail using the `Business.id`
   "modified": "2014-01-21T10:37:39",
   "partner_business_id": null,
   "partner_sub_id": null,
-  "payment_forms": ["visa", "mastercard", "american-express"],
-  "payment_forms_notes": null,
   "resource_uri": "/api/v2/businesses/24305/",
   "services": [
     ... list of business `Service` objects
   ],
   "slug": "some-business-name",
-  "tagline": "Best business in the region",
-  "twitter_url": "http://twitter.com/somebusiness",
-  "user_id": 142606,
-  "year_opened": 2013,
-  "yelp_url": null
+  "user_id": 142606
 }
 ```
 
@@ -144,11 +111,7 @@ Fetch the Business detail using the `Business.id`
 Name | Type | Description
 -----|------|--------------
 `business_name`|`string`|**required** Name of the Business
-||
-**Optional**||
-`contact_email`|`string`|Contact email address for the Business
-`description`|`string`|This is a text summary describing the business, formatted as HTML
-`facebook_url`|`string`|Full address of the Business' Facebook Page (i.e. `http://www.facebook.com/somepage`)
+
 
 #### Example
 
@@ -158,6 +121,8 @@ Name | Type | Description
   "partner_business_id": "uid-12347",
   "locations": [
     {
+      "contact_email": "contact@somebusiness.com",
+      "description":"<p>Here is a description of the business/location</p>",
       "street": "555 Main St",
       "city": "Seattle",
       "state": "WA",
