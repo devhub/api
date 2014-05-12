@@ -6,6 +6,7 @@ Covered in this doc:
 * [Create a site](#create-a-site)
 * [Passing a partner_user_id](#passing-a-partner_user_id)
 * [Updating a site](#updating-a-site)
+* [Disabling / enabling a site](#disabling-enabling-a-site)
 
 ## List sites
 
@@ -214,5 +215,17 @@ In addition to supplying `partner_user_id`, unless you are certain that a User a
     PUT /api/v2/sites/:id/
 
 You can `PUT` a partial or full object to the detail endpoint to update/change values on the Site object. If using a partial object, you must insure that the primary site `id` is part of the payload.
+
+## Disabling / enabling a site
+
+### Disabling a site
+
+To disable an active site and clear all cache references to the domain, use the `DELETE` method on the Site detail endpoint.
+
+    DELETE /api/v2/sites/:id/
+    
+### Enabling a site
+
+To enable a currently disabled site, you will set the param for `deleted` to `False` using the [Site update endpoint](#updating-a-site).
 
 
