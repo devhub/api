@@ -23,6 +23,7 @@ Name | Type | Description
 `added__date`|`string`|Filter for businesses created on a particular date in `YYYY-MM-DD` format
 `order_by`|`string`|Set the field to sort the results by. Available `order_by` includes `id` (default) and `business_name`. You can also sort decending by prefixing the field with a minus sign (i.e. `order_by=-id`)
 `partner_business_id`|`string`|Used to lookup/search for businesses matching a particular internal id
+`partner_sub_id`|`string`|Used by multi-level private labels to filter businesses to one partner based on their assigned sub ID
 
 ### Response
 

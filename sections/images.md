@@ -2,6 +2,8 @@
 
 Covered in this doc:
 * [List images](#list-images)
+* [Upload a new image (via an External URL)](#upload-a-new-image-via-an-external-url)
+* [Upload a new image (via base64)](#upload-a-new-image-via-base64)
 
 ## List images
 
@@ -59,3 +61,58 @@ Any image file is available publicly using the `image` parameter from the respon
 **Example:**
 
     http://yourprivatelabel.cloudfrontend.net/img/upload/c1_26.jpg
+    
+----
+
+## Upload a new image (via an External URL)
+
+    POST /api/v2/images/
+
+### Parameters
+
+Name | Type | Description
+-----|------|--------------
+`site_id`|`integer`|**required** Site to upload the image to
+`external_url`|`string`|**required** Publicly accessible url for the image to be fetched by our system and uploaded
+
+#### Example
+
+```json
+{
+  "site_id": 12345,
+  "external_url": "http://www.examples.com/full/path/to/image.jpg"
+}
+```
+
+### Response
+
+A status code of `201 created` is returned on a successful creation and contains the created image object as JSON.
+
+----
+
+## Upload a new image (via base64)
+
+    POST /api/v2/images/
+
+### Parameters
+
+Name | Type | Description
+-----|------|--------------
+`upload`|`object`|**required**
+
+
+#### Example
+
+```json
+{
+  "site_id": 12345,
+  "upload": {
+    "name": "image.jpg",
+    "file": "iVBORw0KGgoAAAANSUhEUgAAASAAAABsCAIAAABFDPh0AAAAGXRFWHRTb2Z0d2F..."
+  }
+}
+```
+
+### Response
+
+A status code of `201 created` is returned on a successful creation and contains the created image object as JSON.
