@@ -1,4 +1,11 @@
 <?php
+
+/**
+ * Basic SSO example utilizing the oauth-php library
+ * https://code.google.com/p/oauth-php/
+ * Tested with oauth-php version 175
+ */
+
 require 'OAuthRequestSigner.php';
 
 define(BASE_WIDGET_URI, 'http://builder.yourbrand.com/sso/v2/widget.js');
