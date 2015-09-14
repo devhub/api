@@ -33,10 +33,15 @@ Content APIs
 * [Content](https://github.com/devhub/api/blob/master/sections/content.md)
 * [Images](https://github.com/devhub/api/blob/master/sections/images.md)
 
-Other user guides
+Integration User Guides
 -----------------
 
+* [Publishing Sites](https://github.com/devhub/api/blob/master/guides/publishing-sites.md)
+* [Syncing Business Details](https://github.com/devhub/api/blob/master/guides/syncing-business-details.md)
 * [Single sign on (SSO)](https://github.com/devhub/api/blob/master/sections/single-sign-on.md)
+* [Custom Analytics Adaptors](https://github.com/devhub/api/blob/master/guides/custom-analytics-adaptors.md)
+* [Custom Modules](https://github.com/devhub/api/blob/master/guides/custom-modules.md)
+* [Global Footer Code](https://github.com/devhub/api/blob/master/guides/global-footer-code.md)
 
 Help us make it better
 ----------------------
