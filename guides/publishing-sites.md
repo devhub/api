@@ -1,6 +1,6 @@
 ## Publishing Sites
 
-### `clone_id` method
+### 1) `clone_id` method
 
 Pass basic site details (url, business details, partner IDs, etc) and a `clone_id` of an already built Site ID within the platform.
 
@@ -15,7 +15,7 @@ Your new Site will be created as an exact duplicate of the `clone_id` (pages, mo
         "clone_id": 12345
     }
 
-### Specific module placements
+### 2) Specific module placements
 
 The more advanced method for publishing Sites/Pages gives you granular detail on theme, colors, images, and what modules make up the page and where they will be displayed.
 
