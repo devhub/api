@@ -22,6 +22,6 @@ These actions are tracked automaticly and sent to our Analytics backend. These e
 |Link Twitter | `link-twitter` | Click on a twitter link|
 |Link Yelp | `link-yelp` | Click on a yelp link|
 |Link YouTube | `link-youtube` | Click on a YouTube link|
-|Link Website|`link-website`|Deprecate `site-visit`, Click on the website link from marchex header or location finder|
+|Link Website|`link-website`|Deprecated `site-visit`, Click on the website link from header or location finder|
 |Location Search|`location-search`|User initiated search from location finder|
 |Location Info Window|`location-infowindow`|Activating the infowindow for a Location|
