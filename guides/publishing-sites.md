@@ -17,7 +17,7 @@ Your new Site will be created as an exact duplicate of the `clone_id` (pages, mo
 {
     "business": {
         "business_name": "Some Business",
-        // + additonal fields
+        ...
     },
     "formatted_domain": "somesite.example.com",
     "clone_id": 12345
@@ -34,7 +34,7 @@ The more advanced method for publishing Sites/Pages gives you granular detail on
 {
     "business": {
         "business_name": "Some Business",
-        // + additonal fields
+        ...
     },
     "formatted_domain": "somesite.example.com",
     "theme_id": 123,
