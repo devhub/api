@@ -1,5 +1,12 @@
 ## Publishing Sites
 
+Two primary approaches for publishing new Sites via API integration
+
+1. Cloning at Scale - The `clone_id` method
+2. Custom provisioning - Specific module placements
+
+----
+
 ### 1) `clone_id` method
 
 Pass basic site details (url, business details, partner IDs, etc) and a `clone_id` of an already built Site ID within the platform.
