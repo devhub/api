@@ -48,13 +48,8 @@ var AnalyticsAdaptorCustom = (function(superClass) {
 
   AnalyticsAdaptorCustom.prototype.onEvent = function(event, value) {
     var eventId, url;
-    if (!this.isTrackable(event)) {
-      return;
-    }
+    if (!this.isTrackable(event)) return;
     eventId = this.eventToId(event);
-    if (eventId == null) {
-      return;
-    }
     url = 'https://i.ipromote.com/ad/?typ=98';
     if (this.source) {
       url += "&source=" + this.source;
