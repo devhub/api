@@ -4,6 +4,11 @@
 
 Summary of all events within a date range for a particular `site_id`
 
+    GET /api/v2/images/?site_id=12345&
+        report_type=full_report&
+        from_date=2015-07-01&
+        to_date=2015-07-05
+
 ### Parameters
 
 Name | Type | Description
