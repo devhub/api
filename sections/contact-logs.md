@@ -38,7 +38,13 @@ Name | Type | Description
       "phone": "206-555-5555",
       "resource_uri": "/api/v2/contact_log/328269/",
       "site_id": 12345,
-      "timestamp": "2012-06-01T09:28:46"
+      "timestamp": "2012-06-01T09:28:46",
+      "form_id": 12345,
+      "form": {
+          "id": 12345,
+          "name": "Form name",
+          ...
+      }
     },
     ...
   ]
