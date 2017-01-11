@@ -1,6 +1,6 @@
 # Authentication
 
-Authentication is done via oauth using the two legged approach. All requests sent to the API must be signed oauth requests using a provided oauth `key` and `secret` which is assigned to a particular partner or user.
+Authentication is done via oauth using the one-legged approach. All requests sent to the API must be signed oauth requests using a provided oauth `key` and `secret` which is assigned to a particular partner or user.
 
 ## Endpoint
 
