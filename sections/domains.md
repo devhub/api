@@ -4,6 +4,7 @@ Covered in this doc:
 * [Search available domains](#search-available-domains)
 * [List domains](#list-domains)
 * [Register a domain](#register-a-domain)
+* [Renew a domain](#renew-a-domain)
 
 ## Search available domains
 
@@ -100,3 +101,19 @@ Name | Type | Description
 ### Response
 
 A status code of `201 created` is returned on a successful creation and contains the created domain object as JSON
+
+## Renew a Domain
+
+Renew a domain for a period of years.
+
+    POST /api/v2/domains/:id/renew/
+
+### Parameters
+
+Name | Type | Description
+-----|------|--------------
+`period`|`integer`|**required** Number of additional years to renew the domain
+
+### Response
+
+A status code of `202 accepted` is returned on a successful renewal of the domain and contains the domain object as JSON
