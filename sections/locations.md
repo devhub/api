@@ -23,10 +23,10 @@ A location object contains the following fields
 | country | string | 2 character country code  |
 | postal\_code | string | Postal / zip code |
 | neighborhood | string | Neighborhood |
-| phones | list | Nested list of [Phone objects](location.md#phone-object) |
+| phones | list | Nested list of [Phone objects](locations.md#phone-object) |
 | description | string | HTML-formatted business description |
 | partner\_location\_id | string | Unique ID reference to partner IDs |
-| hours\_of\_operation | list | Formatted JSON representing hours of operation. More details [here](location.md#hours-of-operation) |
+| hours\_of\_operation | list | Formatted JSON representing hours of operation. More details [here](locations.md#hours-of-operation) |
 | hours\_of\_operation\_notes | string | Used for holiday closures, open of appointment only or other notes related to their hours |
 | contact\_email | string | Default contact email for the business. Also used as the default recipient on forms |
 | payment\_forms | list | List of forms of payment accepted |
