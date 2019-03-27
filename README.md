@@ -22,6 +22,7 @@ Core APIs ready for use
 -----------------------
 
 * [Businesses](https://github.com/devhub/api/blob/master/sections/businesses.md)
+* [Locations](https://github.com/devhub/api/blob/master/sections/locations.md)
 * [Domains](https://github.com/devhub/api/blob/master/sections/domains.md)
 * [Pages](https://github.com/devhub/api/blob/master/sections/pages.md)
 * [Proxies](https://github.com/devhub/api/blob/master/sections/proxies.md)
