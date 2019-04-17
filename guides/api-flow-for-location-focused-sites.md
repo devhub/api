@@ -1,7 +1,7 @@
 ---
 description: >-
   Example of how to integrate our API for publishing a Site dedicated to a
-  particular Business and a single Location
+  particular Business and one of their many Locations
 ---
 
 # API flow for location-focused sites
@@ -9,7 +9,7 @@ description: >-
 The basic flow is:
 
 1. Create or update a Location under a Business
-2. Create or update a Site under that Location
+2. Create or update a Site under that Business/Location
 
 ## Example endpoints that would be hit
 
