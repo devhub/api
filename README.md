@@ -41,9 +41,6 @@ Logging and Analytics
 Integration User Guides
 -----------------
 
-* [Publishing Sites](https://github.com/devhub/api/blob/master/guides/publishing-sites.md)
-* [Syncing Business Details](https://github.com/devhub/api/blob/master/guides/syncing-business-details.md)
 * [Custom Analytics Adaptors](https://github.com/devhub/api/blob/master/guides/custom-analytics-adaptors.md)
-* [List of Analytics Events](https://github.com/devhub/api/blob/master/guides/list-of-events.md)
 * [Custom Modules](https://github.com/devhub/api/blob/master/guides/custom-modules.md)
 * [Global Footer Code](https://github.com/devhub/api/blob/master/guides/global-footer-code.md)
