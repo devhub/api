@@ -1,39 +1,42 @@
 API v2 Documentation
 ===
 
-This is a REST-style API that uses JSON for serialization and OAuth 2 for authentication
-
-Making a request
-----------------
-
-All URLs are prefixed with `/api/v2/`
+NOTICE: this API documentation has moved to https://api-docs.devhub.com/ - The links below have been updated to link to the approporate sections in the new API documentation.
 
 Authentication
 --------------
 
-Read the [authentication guide](https://github.com/devhub/api/blob/master/sections/authentication.md) to get started.
+Read the [authentication guide](https://api-docs.devhub.com/authentication) to get started.
 
 Errors
 ------
 
-Our API is designed to have predictable, resource-oriented URLs and to use HTTP response codes to indicate API errors. More details on [handling errors and validation](https://github.com/devhub/api/blob/master/sections/errors.md).
+Our API is designed to have predictable, resource-oriented URLs and to use HTTP response codes to indicate API errors. More details on [handling errors and validation](https://api-docs.devhub.com/errors).
 
 Core APIs ready for use
 -----------------------
 
-* [Businesses](https://github.com/devhub/api/blob/master/sections/businesses.md)
-* [Locations](https://github.com/devhub/api/blob/master/sections/locations.md)
-* [Domains](https://github.com/devhub/api/blob/master/sections/domains.md)
-* [Pages](https://github.com/devhub/api/blob/master/sections/pages.md)
-* [Proxies](https://github.com/devhub/api/blob/master/sections/proxies.md)
-* [Sites](https://github.com/devhub/api/blob/master/sections/sites.md)
+* [Sites](https://api-docs.devhub.com/core-resources/sites)
+* [Businesses](https://api-docs.devhub.com/core-resources/businesses)
+* [Locations](https://api-docs.devhub.com/core-resources/locations)
+* [Domains](https://api-docs.devhub.com/core-resources/domains)
+* [Proxies](https://api-docs.devhub.com/core-resources/proxies)
 
-Content APIs
-------------
 
-* [Contact Logs](https://github.com/devhub/api/blob/master/sections/contact-logs.md)
-* [Content](https://github.com/devhub/api/blob/master/sections/content.md)
-* [Images](https://github.com/devhub/api/blob/master/sections/images.md)
+Content Resource APIs
+---------------------
+
+* [Pages](https://api-docs.devhub.com/content-resources/pages)
+* [Content](https://api-docs.devhub.com/content-resources/content)
+* [Images](https://api-docs.devhub.com/content-resources/images)
+* [Files](https://api-docs.devhub.com/content-resources/files)
+* [Modules](https://api-docs.devhub.com/content-resources/modules)
+* [Themes](https://api-docs.devhub.com/content-resources/themes)
+
+Logging and Analytics
+-----------------------
+
+* [Contact Logs](https://api-docs.devhub.com/logging-and-analytics/contact-logs)
 
 Integration User Guides
 -----------------
@@ -45,8 +48,3 @@ Integration User Guides
 * [List of Analytics Events](https://github.com/devhub/api/blob/master/guides/list-of-events.md)
 * [Custom Modules](https://github.com/devhub/api/blob/master/guides/custom-modules.md)
 * [Global Footer Code](https://github.com/devhub/api/blob/master/guides/global-footer-code.md)
-
-Help us make it better
-----------------------
-
-Please tell us how we can make the API better. If you have a specific feature request or if you found a bug, please use GitHub issues. Fork these docs and send a pull request with improvements.
